@@ -14,18 +14,18 @@
         <h1>Registreer</h1>
         <h5>Meld je aan bij Anoroc Services, wij  beschermen jouw software tegen malware!</h5>
         <div class="row">
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">Voornaam</label>
               <input type="text" class="form-control" placeholder="Uw voornaam" aria-label="First name">
             </div>
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">Naam</label>
               <input type="text" class="form-control" placeholder="Uw naam" aria-label="Last name">
             </div>
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">Gebruikersnaam</label>
                 <div class="input-group mb-3">
                     
@@ -33,26 +33,26 @@
                     <input type="text" class="form-control" placeholder="R0331615" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">E-mailadres</label>
               <input type="email" class="form-control" placeholder="mail@example.be" aria-label="mail">
             </div>
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">Wachtwoord</label>
               <input type="password" class="form-control" placeholder="" aria-label="wachtwoord">
               <div id="passwordHelpBlock" class="form-text">
                 Je wachtwoord moet minstens 8 tekens lang zijn.              </div>
             </div>
-            <div class="col">
+            <div class="col-md">
                 <label for="form-control" class="form-label">Herhaal wachtwoord</label>
               <input type="password" class="form-control" placeholder="" aria-label="herhaal wachtwoord">
             </div>
           </div>
 
-          <div class="mb-3">
+          <div class="row">
             <label for="adres" class="form-label">Adres</label>
             <input type="text" class="form-control" placeholder="Uw adres en huisnummer" id="adres" aria-describedby="adres ingave">
           </div>
@@ -61,32 +61,92 @@
             <div class="col-md-6">
                 <label for="form select" class="slect">Land</label>
                 <select class="form-select form-select mb-3" aria-label=".form-select-lg example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option selected>Kies een land</option>
+                    <option value="1">Belgie</option>
+                    <option value="2">Nederland</option>
+                    <option value="3">Luxemburg</option>
+                    <option value="3">Frankrijk</option>
+                    <option value="3">Duitsland</option>
                   </select>
             </div>
+          
             <div class="col-md-3">
-                <label for="form select" class="slect">Land</label>
+                <label for="form select" class="slect">provincie</label>
                 <select class="form-select form-select mb-3" aria-label=".form-select-lg example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option selected>Kies een provincie</option>
+                    <option value="1">Antwerpen</option>
+                    <option value="2">Namen</option>
+                    <option value="3">Gelderland</option>
                   </select>
             </div>
-            <div class="col-md-3">
-                <label for="form select" class="slect">Land</label>
-                <select class="form-select form-select mb-3" aria-label=".form-select-lg example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+            <div class="col-md">
+                
+                <label for="form-select" class="slect">Postcode</label>
+                <input type="text" class="form-control" placeholder="" aria-label="postcode">
+                
             </div>
           </div>
-    </div>
+
+          <hr>
+
+            <div class="row">
+                <div class="col-md">
+                    <h3>Hou me op de hoogte</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckNieuws">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Inschrijven voor nieuwsbrief
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckVoorwaarden">
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Ik ga akkoord met de algemene voorwaarden
+                        </label>
+                      </div>
+                </div>
+
+                
+            
+            
+                <div class="col-md">
+                    <h3>Betaling</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Banking app
+                        </label>
+                      </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Overschrijving
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                        Visa card
+                        </label>
+                          </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                        <label class="form-check-label" for="flexRadioDefault">
+                        Paypal
+                        </label>
+                      </div>
+                      
+            </div>
+            </div>
+            <hr>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Wave your magic wand</button>
+                
+              </div>
+
+         
+            </div>
+    
 
     
 
