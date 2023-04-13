@@ -27,28 +27,12 @@
             </div>
             <div class="col-md" id="extra">
               <div class="row" id="fout">
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger" role="alert" id="fout1">
                   <h4>Yikes, errors..</h4>
-                  <p>
-
-                  </p>
+                  <p></p>
                 </div>
               </div>
 
-              <div class="row" id="goed">
-                <div class="alert alert-success" role="alert">
-                  <h4>Goed gedaan!</h4>
-                  <p>Aww yaeh, je werd succesvol geregistreerd.</p>
-                </div>
-              </div>
-
-              <div class="row" id="betalingswijze">
-                <div class="alert alert-info" role="alert">
-                  <h4>Betalingswijze</h4>
-                  <p>Je betalinngswijze is </p>
-                </div>
-
-              </div>
               
             </div>
           </div>
@@ -67,6 +51,12 @@
               <input id="email" type="email" class="form-control" placeholder="mail@example.be" aria-label="mail">
             </div>
             
+            <div class="col-md" id="goed">
+              <div class="alert alert-success" role="alert" id="goed1">
+                <h4>Goed gedaan!</h4>
+                <p>Aww yaeh, je werd succesvol geregistreerd.</p>
+              </div>
+            </div>
           </div>
 
           <div class="row" id="rij3">
@@ -80,6 +70,13 @@
             <div class="col-md" id="kolom">
                 <label for="form-control" class="form-label">Herhaal wachtwoord</label>
               <input id="wwcheck" type="password" class="form-control" placeholder="" aria-label="herhaal wachtwoord">
+            </div>
+            <div class="col-md" id="betalingswijze">
+              <div class="alert alert-info" role="alert" id="betalingswijze1">
+                <h4>Betalingswijze</h4>
+                <p></p>
+              </div>
+
             </div>
           </div>
 
@@ -144,25 +141,25 @@
                 <div class="col-md">
                     <h3>Betaling</h3>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Banking app">
-                        <label class="form-check-label" for="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Banking_app" value="Banking app">
+                        <label class="form-check-label" for="flexRadioDefault">
                             Banking app
                         </label>
                       </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Overschrijving">
-                        <label class="form-check-label" for="flexRadioDefault2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Overschrijving" value="Overschrijving">
+                        <label class="form-check-label" for="flexRadioDefault">
                             Overschrijving
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="visa card">
-                        <label class="form-check-label" for="flexRadioDefault3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="visa card" value="Visa Card">
+                        <label class="form-check-label" for="flexRadioDefault">
                         Visa card
                         </label>
                           </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="paypal">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="paypal" value="Paypal">
                         <label class="form-check-label" for="flexRadioDefault">
                         Paypal
                         </label>
